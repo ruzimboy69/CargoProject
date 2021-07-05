@@ -5,11 +5,11 @@ class Section2 extends Component {
         return (
             <div className={'Section2'}>
                 <div className={'container'}>
-                    <div className={'row'}>
+                    <div className={'row d-none d-lg-block'}>
                         <div className={'col-md-12 p-4'}>
                             <h1>Har kuni o'nlab kompaniyalar OrderCargo orqali yuk tashuvchilar va jo'natuvchilar bilan muloqot qiladi</h1>
                         </div>
-                        <div className={' p-4 d-flex'}>
+                        <div className={' p-4 col-md-12 d-lg-flex'}>
                             <div className={'col-md-3 text-center'}>
                                 <h1>8945</h1>
                                 <div></div>

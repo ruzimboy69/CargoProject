@@ -53,10 +53,6 @@ class RegistrationPart extends Component {
                             }}></ModalHeader>
                             <ModalBody>
                                 <div className={'text-center'}>
-                                    <div className={'d-flex  justify-content-around my-5  col-md-4 '}>
-                                        <span  style={{width: "50px", height: "3px",paddingRight:"5px", backgroundColor: 'black'}}></span>
-                                        <span style={{width: "50px", height: "3px",paddingLeft:"5px", backgroundColor: 'black'}}></span>
-                                    </div>
                                     <div className={"my-5 text-center"}>
                                         <h3>Avtorizatsiya</h3>
                                         <p>Telefon raqamingizni kiritng</p>
@@ -84,10 +80,7 @@ class RegistrationPart extends Component {
                     <Modal isOpen={secondOpen} toggle={this.secondModal} >
                         <ModalBody>
                             <div className={'text-center'}>
-                                <div className={'d-flex  justify-content-around my-5 col-md-4 '}>
-                                    <span  style={{width: "50px", height: "3px",paddingRight:"5px", backgroundColor: 'black'}}></span>
-                                    <span style={{width: "50px", height: "3px",paddingLeft:"5px", backgroundColor: 'black'}}></span>
-                                </div>
+
                                 <div className={"my-5 text-center"}>
                                     <h3>Avtorizatsiya</h3>
                                     <p>Xavfsizlik kodini kiriting</p>
